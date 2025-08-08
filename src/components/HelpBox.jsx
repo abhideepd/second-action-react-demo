@@ -8,5 +8,5 @@ function HelpBox({ title, text }) {
     </article>
   );
 }
-
+var x=0;
 export default HelpBox;
