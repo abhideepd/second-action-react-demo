@@ -5,4 +5,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Print message
-              run: echo "This is the output job"
+              run: echo "${{toJson(github)}}"
